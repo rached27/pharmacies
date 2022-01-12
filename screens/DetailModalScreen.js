@@ -42,7 +42,7 @@ const DetailModalScreen = ({ route, navigation }) => {
     if ((time_now - time_start > 0) && (time_end - time_now > 0)) {
       //Open
       navigation.setOptions({
-        title: "Ouvert",
+        title: "Ouverte",
         headerStyle: {
           backgroundColor: colors.primary,
         },
@@ -56,7 +56,7 @@ const DetailModalScreen = ({ route, navigation }) => {
     else {
       //Closed
       navigation.setOptions({
-        title: "Fermé",
+        title: "Fermée",
         headerStyle: {
           backgroundColor: colors.secondary,
         },
