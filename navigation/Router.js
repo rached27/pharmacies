@@ -55,7 +55,7 @@ const BottomTabNavigator = () => (
         headerTitleStyle: {
           fontWeight: "bold",
         },
-        headerTintColor: "#fff",
+        headerTintColor: colors.white,
       })}
     />
     <BottomTab.Screen

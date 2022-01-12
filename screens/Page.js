@@ -50,7 +50,7 @@ function Page({ navigation }) {
             pharmacyId: item.id
           })} />
         )}
-        keyExtractor={item => item.email}
+        keyExtractor={item => item.id}
         onEndReached={loadMoreItem}
         onEndReachedThreshold={0}
       />

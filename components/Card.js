@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         paddingVertical: 16,
         borderRadius: 10,
         borderBottomWidth: 1,
-        borderColor: "#ddd",
+        borderColor: colors.gray,
         backgroundColor: 'white'
     
       },
@@ -60,7 +60,6 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         alignSelf: 'center',
         marginTop: 15,
-        fontWeight: 'bold',
         fontSize: 18,
         color: colors.primary,
     
@@ -95,7 +94,7 @@ const styles = StyleSheet.create({
       },
       txtDistanceStyle: {
         paddingLeft: 10,
-        color: "#777",
+        color: colors.text,
       },
       loaderStyle: {
         marginVertical: 16,

@@ -17,7 +17,8 @@ const DetailModalScreen = ({ route, navigation }) => {
     state.myReducer.pharmacies.find(pharmacy => pharmacy.id === pharmacyId)
   )
 
-  let weekday = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY'][new Date().getDay()]
+  //Get current weekday
+  let weekday = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'][new Date().getDay()]
 
   //Check if pharmacy is open
   const verifyDisponibility = (pharmacy) => {
